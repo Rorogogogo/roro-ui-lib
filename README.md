@@ -34,9 +34,11 @@ components/agent-wave-loader/prompt.md
 # from the root of your project
 mkdir -p src/components/ui
 curl -L https://github.com/Rorogogogo/roro-ui-lib/archive/refs/heads/main.tar.gz \
-  | tar -xz --strip-components=3 -C src/components/ui \
+  | tar -xz --strip-components=2 -C src/components/ui \
     roro-ui-lib-main/components/agent-wave-loader
 ```
+
+That leaves you with `src/components/ui/agent-wave-loader/`.
 
 Then import it:
 
